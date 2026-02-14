@@ -34,7 +34,7 @@ What I completed:
 - Decide whether batch behavior should remain fail-fast or support dead-letter + continue.
 - Migrate from `Date`/`SimpleDateFormat` to `LocalDate`/`DateTimeFormatter` for safer date handling.
 
-## Open Questions
+## Questions
 
 - Should full field validation be part of this task, or follow in a second pass?
 - Is fail-fast the desired production behavior, or should valid rows continue while bad rows are isolated?
