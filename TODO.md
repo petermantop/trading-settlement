@@ -39,3 +39,12 @@ What I completed:
 - Should full field validation be part of this task, or follow in a second pass?
 - Is fail-fast the desired production behavior, or should valid rows continue while bad rows are isolated?
 - Is `JOB` guaranteed numeric in all upstream data, or should it be treated as a string field?
+
+## Quick Verification
+
+- Run full tests:
+  - `./gradlew --no-daemon test`
+  - Expected: `BUILD SUCCESSFUL`
+- Optional smoke run:
+  - `./gradlew --no-daemon bootRun`
+  - Expected: app starts, processes file, and logs processed counts
